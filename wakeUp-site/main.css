@@ -1,0 +1,61 @@
+@font-face { 
+    font-family: pixelated; src: url("fonts/Pixeled.ttf");
+}
+@font-face { 
+    font-family: alagard; src: url("fonts/alagard.ttf");
+  }
+body{
+    font-family: alagard;
+    background-color:black;
+    text-align: center;
+    background-image: url(250_.png);
+}
+img{
+    max-width: 160px;
+}
+p{
+    font-size: 30px;
+    color:rgb(124, 197, 197);
+}
+h3{
+    color:rgb(124, 197, 197);
+    font-size: 30px;
+}
+h3.sublinhado{
+    color: black;
+    text-decoration: overline underline;
+    font-size: 35px;
+    
+}
+h3.sublinhado:hover{
+    color:rgb(124, 197, 197);
+    font-size: 35px;
+
+}
+h2{
+    color:rgb(124, 197, 197);
+    font-size: 30px;
+}
+
+p1{
+    font-size: 30px;
+    color:rgb(28, 37, 53)
+}
+h1{
+    color: rgb(25, 57, 65);
+    font-size: 30px;
+    background-color: rgb(151, 184, 194);
+    padding: 15px;
+}
+a{
+    color:rgb(25, 57, 65);
+    font-size: 30px;
+}
+a:visited{
+    color:rgb(25, 57, 65);
+    font-size: 30px;
+}
+a:hover{
+    color:white;
+    font-size: 30px;
+}

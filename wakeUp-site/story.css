@@ -1,0 +1,33 @@
+@font-face { 
+    font-family: pixelated; src: url("fonts/Pixeled.ttf");
+}
+@font-face { 
+    font-family: alagard; src: url("fonts/alagard.ttf");
+  }
+body{
+    background-color:black;
+    text-align: center;
+    background-image: url(250_.png);
+}
+img{
+    filter: hue-rotate(20deg);
+    
+    image-rendering: pixelated;
+    max-width: 80px;
+}
+p{
+    font-family: alagard;
+    color: rgb(151, 184, 194);
+    font-size: 30px;
+}
+h1{
+    color: rgb(65, 117, 117);
+    font-family: alagard;
+    font-size: 35px ;
+}
+a:visited{
+    color:rgb(151, 184, 194);
+}
+a:hover{
+    color:rgb(65, 117, 117);
+}

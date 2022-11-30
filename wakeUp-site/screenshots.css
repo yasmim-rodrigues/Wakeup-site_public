@@ -1,0 +1,43 @@
+@font-face { 
+    font-family: pixelated; src: url("fonts/Pixeled.ttf");
+}
+@font-face { 
+    font-family: alagard; src: url("fonts/alagard.ttf");
+  }
+body{
+    font-family: alagard;
+    background-color: black;
+    color:rgb(124, 197, 197);
+}
+h1{
+    text-align: center;
+}
+img{
+    text-align: left;
+    max-width: 100px;
+}
+img[id="primeira"]{
+    text-align: left;
+    max-width: 150px;
+    transition: transform 0.25s ease;
+    cursor: zoom-in;
+    padding-left: 70px;
+    image-rendering: pixelated;
+}
+img{
+    text-align: left;
+    max-width: 150px;
+    transition: transform 0.25s ease;
+    cursor: zoom-in;
+    padding:10px;
+    image-rendering: pixelated;
+
+}
+img:active{
+    -webkit-transform: scale(2);
+    transform: scale(2);
+    cursor: zoom-out;  
+}
+h2{
+    text-align: center;
+}

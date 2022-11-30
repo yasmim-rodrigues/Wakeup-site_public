@@ -1,0 +1,19 @@
+body{
+    background-color:rgb(120, 172, 240);
+    text-align: center;
+}
+p{
+    color: rgb(16, 47, 105);
+}
+h1{
+    color: rgb(16, 47, 105);
+}
+a:before{
+    color: rgb(7, 77, 168);
+}
+a:hover{
+    color:white;
+}
+a:visited{
+    color:blue
+}
